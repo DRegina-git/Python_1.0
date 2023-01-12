@@ -13,7 +13,7 @@ def sum_nums(list_num):
     n = 0
     for k in range(0, len(list_num), 2):
         n += list_num[k]
-        return n
+    return n
 
 
 numbers_list = list_create_num(int(input('Enter number: ')))
